@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Img/A.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 6px;
+    color: black;
+}
+
+h1 {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: aqua;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*Alterar nome das caixas*/
+div label {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 45px;
+    color:aqua;
+}
+
+div ::placeholder {
+    text-align: center;
+}
+
+/*Alterar tamanho das caixas*/
+.number-one, .number-two{
+    margin-bottom: 25px;
+    font-size: 28px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/*Cor do input*/
+label input {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    border-radius: 6px;
+    background-color: aqua;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#res {
+    font-size: 30px;
+    color: aqua; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font: Arial black;
+}
+
+/* Celulares */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-image:radial-gradient(
+            circle,
+            #00FFFF 0%,
+            #9400d3 46%,
+            #4b0082 100%
+        );
+    }
+
+    label input {
+        margin-bottom: 5px;
+    }
+}
+
+/* Tablets */
+
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+    body {
+        background-image:radial-gradient(
+            circle,
+            #00FFFF 0%,
+            #9400d3 46%,
+            #4b0082 100%
+        );
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image:radial-gradient(
+            circle,
+            #00FFFF 0%,
+            #9400d3 46%,
+            #4b0082 100%
+        );
+    }
+}

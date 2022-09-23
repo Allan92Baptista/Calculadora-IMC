@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>IMC - TAMARA</title>
+</head>
+<body>
+<form>
+    <h1>Calcule Seu IMC</h1>
+        <div>
+            <label for="altura">Altura</label><br>
+            <input class="number-one" type="number" placeholder="0,00" id="calc1">
+        </div>
+        
+        <div>
+            <label for="peso">Peso</label><br>
+            <input class="number-two" type="number"  placeholder="00,00" id="calc2">
+        </div>
+
+        <div id="res">
+            <strong><b> Resultado </b></strong>
+        </div>
+
+    <section>
+        <label>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </label>
+        <label>
+            <input type="reset" value="Limpar" onclick="limpar()">
+        </label>
+    </section>
+</form>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html> 
